@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Law</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="Style/tablet.css" />
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="Style/mobile.css" />
+</head>
+
+<body>
+
+    <nav class="container">
+        <a href="index.html">
+            <div class="logo">
+                <img src="Images/balance_white.png" alt="IndianLaw">
+                <h1 class="logo">Indian Law</h1>
+            </div>
+        </a>
+
+        <ul class="menu-items hide-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="laws.html">All Laws</a></li>
+            <li><a class="active" href="about.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <!-- <li><a href="terms.html">Terms of Use</a></li> -->
+        </ul>
+
+        <div class="burger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <section class="about_section">
+        <h2 class="h_primary page_title">About-us</h2>
+
+        <div class="terms">
+            <p> This website basically shares some general information about Indian Law
+                System with specifications.</p>
+            
+            <P>This website states the function of each laws or articles of the constitution from article 1 to article 395. 
+                Each article describes its presence and its work. We hope this website may set up the glimpse of a basic idea
+                about Indian Law System.</P>
+            <P>We have created this website by using VS code application. In this website, we have placed the navigation
+                bar,
+                added
+                different sections which provides lots of information relating the subject, lastly added a footer. The
+                Home page
+                has been designed gently by giving it a general look. Two to three pages are added to this website which
+                shares
+                the information about the subject. </P>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_devider">
+            <div class="footer_box" id="f1">
+                <h4>Disclaimer</h4>
+                <p>
+                    This is not an Official Website of Indian Government, This Website is Just made as Project. 
+                    All information Written in this website are collected from Google and some third-party Websites.
+                </p>
+            </div>
+            <div class="footer_box" id="f2">
+                <h4>Important Pages</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="laws.html">Laws</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <!-- <li><a href="terms.html">Terms of Use</a></li> -->
+                </ul>
+            </div>
+            <div class="footer_box" id="f3">
+                <h4>Get in Touch</h4>
+                <h5>Call/Whatsapp</h5>
+                <p>+91 1234567890</p>
+
+                <h5>Mail</h5>
+                <p>contact@g6.in</p>
+
+                <h5>Address</h5>
+                <p>Nagpur, Maharashtra</p>
+            </div>
+        </div>
+        <div id="Footer_Credit">
+            <p>Copyright 2023 <a href="#">Indian Law</a></a></p>
+        </div>
+    </footer>
+
+    <script>
+        burger = document.querySelector('.burger')
+        Menu = document.querySelector('.menu-items')
+
+
+        burger.addEventListener('click', () => {
+            Menu.classList.toggle('hide-menu');
+        })
+    </script>
+
+</body>
+
+</html>
